@@ -1,0 +1,39 @@
+{
+  "applied_files": [
+    {
+      "path": "regulations/mpp/63-503.yaml",
+      "sha256": "94b1b17eb415dc398088535a7801f1c3a7da1743dacda666d51dfeccc6ccff7a"
+    },
+    {
+      "path": "regulations/mpp/63-503.test.yaml",
+      "sha256": "79e95b76b323cbaa40680e560a1fa0f758a3594256c5f15343abe6c4b2af21db"
+    }
+  ],
+  "axiom_encode_git": {
+    "commit": "2ae8864e968e9fe6881f46d2f9fdd80be91b6cfd",
+    "dirty_tracked": false,
+    "root": "/Users/pavelmakarchuk/axiom-encode"
+  },
+  "axiom_encode_version": "0.2.68",
+  "backend": "codex",
+  "citation": "us-ca/regulation/mpp/63-503.132",
+  "context_manifest_file": "/tmp/encode-sandbox/_eval_workspaces/codex-gpt-5.5/us-ca-regulation-mpp-63-503.132/workspace/context-manifest.json",
+  "context_manifest_sha256": "ce1f2270c85225727a9c5315622b10cafdb3fb35c3136225711faa0aac62abee",
+  "generated_at": "2026-05-13T23:24:31.342491+00:00",
+  "generated_output_file": "/tmp/encode-sandbox/codex-gpt-5.5/regulations/mpp/63-503.yaml",
+  "generated_output_root": "/tmp/encode-sandbox",
+  "generated_output_sha256": "94b1b17eb415dc398088535a7801f1c3a7da1743dacda666d51dfeccc6ccff7a",
+  "generation_prompt_sha256": "33c0f0aae8cd90500bd2737e67c8e9dc0aee957e6e39f1ea730e81eb959caa4f",
+  "model": "gpt-5.5",
+  "run_id": "18672273",
+  "runner": "codex-gpt-5.5",
+  "schema_version": "axiom-encode/applied-rulespec/v1",
+  "signature": {
+    "algorithm": "hmac-sha256",
+    "key_id": "axiom-encode-apply-v1",
+    "value": "f1a951b7e0e7a7890fba3fbf9330fdc1ed086a6b146434a0d13c9c42f48aab0b"
+  },
+  "tool": "axiom-encode encode --apply",
+  "trace_file": "/tmp/encode-sandbox/traces/codex-gpt-5.5/us-ca-regulation-mpp-63-503.132.json",
+  "trace_sha256": "6fe7a2e1a4d9bef8b32c0f54e7cd96669fd2f793c96d7b12130c12af1234cc5e"
+}

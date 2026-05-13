@@ -1,0 +1,16 @@
+- name: rounds_down_and_issues_when_at_least_threshold
+  period: 2026-05
+  input:
+    us-ca:regulations/mpp/63-503#input.prorated_allotment_product: 10.99
+  output:
+    us-ca:regulations/mpp/63-503#minimum_monthly_issuance_threshold: 10
+    us-ca:regulations/mpp/63-503#prorated_allotment_rounded_down: 10
+    us-ca:regulations/mpp/63-503#prorated_allotment_issuance: 10
+- name: no_issuance_when_rounded_allotment_is_less_than_threshold
+  period: 2026-05
+  input:
+    us-ca:regulations/mpp/63-503#input.prorated_allotment_product: 9.99
+  output:
+    us-ca:regulations/mpp/63-503#minimum_monthly_issuance_threshold: 10
+    us-ca:regulations/mpp/63-503#prorated_allotment_rounded_down: 9
+    us-ca:regulations/mpp/63-503#prorated_allotment_issuance: 0
