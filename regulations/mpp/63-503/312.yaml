@@ -87,7 +87,7 @@ rules:
         formula: |-
           max(0, gross_monthly_income_earned_by_all_household_members - earned_income_exclusions)
 
-  - name: net_monthly_earned_income_after_earned_income_deduction
+  - name: net_monthly_earned_income_after_earned_income_deduction__per_312
     kind: derived
     entity: Household
     dtype: Money

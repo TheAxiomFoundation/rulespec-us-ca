@@ -10,8 +10,8 @@
     }
   ],
   "axiom_encode_git": {
-    "commit": "a687bdf48d4c7f1fc95dffee0410b24dfcebd932",
-    "dirty_tracked": false,
+    "commit": "07a2858edb2e5af920b5d6d9fc815f8dd0d578e3",
+    "dirty_tracked": true,
     "root": "/Users/pavelmakarchuk/axiom-encode"
   },
   "axiom_encode_version": "0.2.68",
@@ -19,7 +19,7 @@
   "citation": "us-ca/regulation/mpp/63-404.11",
   "context_manifest_file": null,
   "context_manifest_sha256": null,
-  "generated_at": "2026-05-14T15:01:15.140777+00:00",
+  "generated_at": "2026-05-14T15:16:59.444382+00:00",
   "generated_output_file": null,
   "generated_output_root": null,
   "generated_output_sha256": null,
@@ -31,7 +31,7 @@
   "signature": {
     "algorithm": "hmac-sha256",
     "key_id": "axiom-encode-apply-v1",
-    "value": "9a24c1afb81a2c35f81c89de9241e59857fc954c03b01ce94aafa0506bdad9b4"
+    "value": "bd797ed4c003746a8c90b5789848ce4f6eb3c67f54c0de54838c1050108a9890"
   },
   "tool": "axiom-encode encode --apply (recovered from sandbox)",
   "trace_file": null,

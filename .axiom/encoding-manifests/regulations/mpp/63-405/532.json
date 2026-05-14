@@ -2,16 +2,16 @@
   "applied_files": [
     {
       "path": "regulations/mpp/63-405/532.yaml",
-      "sha256": "dc963f938d2dc63d7f86fca447e30a6e47b2c92f9600080e82d31342fb7b5141"
+      "sha256": "48a2251792c331aec7cc210a92a4951959d86d3a5891fa6b8e8ac96056734918"
     },
     {
       "path": "regulations/mpp/63-405/532.test.yaml",
-      "sha256": "e7b748b6b80353ce184459d6a061442da1d6c5d05fd8962a5bff99527e3b8219"
+      "sha256": "74d2d8ebf2e820c6a28913141934843ca340a0b4543dedc8ab823c6c6aeb2960"
     }
   ],
   "axiom_encode_git": {
-    "commit": "a687bdf48d4c7f1fc95dffee0410b24dfcebd932",
-    "dirty_tracked": false,
+    "commit": "07a2858edb2e5af920b5d6d9fc815f8dd0d578e3",
+    "dirty_tracked": true,
     "root": "/Users/pavelmakarchuk/axiom-encode"
   },
   "axiom_encode_version": "0.2.68",
@@ -19,7 +19,7 @@
   "citation": "us-ca/regulation/mpp/63-405.532",
   "context_manifest_file": null,
   "context_manifest_sha256": null,
-  "generated_at": "2026-05-14T15:01:15.153881+00:00",
+  "generated_at": "2026-05-14T15:16:59.455683+00:00",
   "generated_output_file": null,
   "generated_output_root": null,
   "generated_output_sha256": null,
@@ -31,7 +31,7 @@
   "signature": {
     "algorithm": "hmac-sha256",
     "key_id": "axiom-encode-apply-v1",
-    "value": "0e9841a4c992531b3aa8f49da04d8810742e499e6fa7ba7368da339e29c08856"
+    "value": "e1e233ccc48bc13d5edd242aadc4e76f142e5aea3710a5b23d44cf035de315c7"
   },
   "tool": "axiom-encode encode --apply (recovered from sandbox)",
   "trace_file": null,

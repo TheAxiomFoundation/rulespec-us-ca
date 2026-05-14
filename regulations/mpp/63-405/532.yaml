@@ -7,7 +7,7 @@ module:
   summary: |-
     Who meets a requirement as specified in Section 63-405.512.
 rules:
-  - name: person_meets_requirement_under_section_63_405_512
+  - name: person_meets_requirement_under_section_63_405_512__per_532
     kind: derived
     entity: Person
     dtype: Judgment
