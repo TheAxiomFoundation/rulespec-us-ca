@@ -125,7 +125,7 @@ rules:
     versions:
       - effective_from: '0001-01-01'
         formula: |-
-          net_monthly_earned_income_after_earned_income_deduction + max(0, total_monthly_unearned_income_to_all_household_members - unearned_income_exclusions)
+          net_monthly_earned_income_after_earned_income_deduction__per_312 + max(0, total_monthly_unearned_income_to_all_household_members - unearned_income_exclusions)
 
   - name: monthly_income_after_standard_dependent_care_medical_and_homeless_deductions
     kind: derived
