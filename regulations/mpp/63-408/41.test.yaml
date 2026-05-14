@@ -1,5 +1,5 @@
 - name: circumstances_beyond_registrants_control
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-408/41#input.circumstances_beyond_registrants_control: true
     us-ca:regulations/mpp/63-408/41#input.registrant_resigned_from_job_that_does_not_meet_suitability_criteria_under_section_63_407_7: false
@@ -24,7 +24,7 @@
     us-ca:regulations/mpp/63-408/41#bona_fide_offer_minimum_weekly_hours: 30
     us-ca:regulations/mpp/63-408/41#registrant_has_good_cause_for_leaving_employment: holds
 - name: bona_fide_offer_meets_weekly_hours_threshold
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-408/41#input.circumstances_beyond_registrants_control: false
     us-ca:regulations/mpp/63-408/41#input.registrant_resigned_from_job_that_does_not_meet_suitability_criteria_under_section_63_407_7: false
@@ -48,7 +48,7 @@
   output:
     us-ca:regulations/mpp/63-408/41#registrant_has_good_cause_for_leaving_employment: holds
 - name: lack_of_adequate_child_care_for_child_age_six_to_under_twelve
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-408/41#input.circumstances_beyond_registrants_control: false
     us-ca:regulations/mpp/63-408/41#input.registrant_resigned_from_job_that_does_not_meet_suitability_criteria_under_section_63_407_7: false
@@ -72,7 +72,7 @@
   output:
     us-ca:regulations/mpp/63-408/41#registrant_has_good_cause_for_leaving_employment: holds
 - name: no_good_cause_condition_present
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-408/41#input.circumstances_beyond_registrants_control: false
     us-ca:regulations/mpp/63-408/41#input.registrant_resigned_from_job_that_does_not_meet_suitability_criteria_under_section_63_407_7: false

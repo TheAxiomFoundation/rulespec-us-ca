@@ -1,5 +1,5 @@
 - name: applicant_identity_and_work_registration_required
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/541#input.applicant_identity_verified_through_collateral_contact: true
     us-ca:regulations/mpp/63-301/541#input.applicant_identity_verified_through_readily_available_documentary_evidence: false
@@ -12,7 +12,7 @@
     us-ca:regulations/mpp/63-301/541#work_registration_before_certification_required: holds
     us-ca:regulations/mpp/63-301/541#questionable_work_exemption_verification_postponement_required: not_holds
 - name: unverified_identity_and_exemption_verification_postponed
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/541#input.applicant_identity_verified_through_collateral_contact: false
     us-ca:regulations/mpp/63-301/541#input.applicant_identity_verified_through_readily_available_documentary_evidence: false

@@ -24,7 +24,7 @@
   output:
     us-ca:regulations/mpp/63-407/53#food_stamp_reapplication_available_after_exemption: not_holds
 - name: disqualification_starts_first_day_after_timely_notice_month
-  period: 2026-06-01
+  period: 2026-06
   input:
     us-ca:regulations/mpp/63-407/53#input.day_is_first_of_month_following_timely_notice_month: true
     us-ca:regulations/mpp/63-407/53#input.individual_was_provided_timely_notice_of_adverse_action_in_previous_month: true

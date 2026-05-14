@@ -1,5 +1,5 @@
 - name: interview_process_requirements_satisfied
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/46#input.household_is_eligible: true
     us-ca:regulations/mpp/63-300/46#input.household_receives_opportunity_to_participate: true
@@ -21,7 +21,7 @@
     us-ca:regulations/mpp/63-300/46#notice_of_missed_interview_requirement_satisfied: holds
     us-ca:regulations/mpp/63-300/46#missed_interview_rescheduling_requirement_satisfied: holds
 - name: requirements_inapplicable_when_source_triggers_absent
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/46#input.household_is_eligible: false
     us-ca:regulations/mpp/63-300/46#input.household_receives_opportunity_to_participate: false
@@ -41,7 +41,7 @@
     us-ca:regulations/mpp/63-300/46#notice_of_missed_interview_requirement_satisfied: holds
     us-ca:regulations/mpp/63-300/46#missed_interview_rescheduling_requirement_satisfied: holds
 - name: participation_deadline_and_working_member_consideration_not_satisfied
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/46#input.household_is_eligible: true
     us-ca:regulations/mpp/63-300/46#input.household_receives_opportunity_to_participate: true
@@ -61,7 +61,7 @@
     us-ca:regulations/mpp/63-300/46#notice_of_missed_interview_requirement_satisfied: holds
     us-ca:regulations/mpp/63-300/46#missed_interview_rescheduling_requirement_satisfied: holds
 - name: missed_interview_notice_and_rescheduling_not_satisfied
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/46#input.household_is_eligible: true
     us-ca:regulations/mpp/63-300/46#input.household_receives_opportunity_to_participate: true

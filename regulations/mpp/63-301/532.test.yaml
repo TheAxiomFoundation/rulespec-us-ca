@@ -1,5 +1,5 @@
 - name: qualifying_mailed_application_first_count_day_and_mailing_time_excluded
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/532#input.household_mails_application: true
     us-ca:regulations/mpp/63-301/532#input.application_contains_sufficient_information_to_indicate_household_entitled_to_expedited_service_and_out_of_office_certification: true
@@ -18,7 +18,7 @@
     us-ca:regulations/mpp/63-301/532#mailing_time_for_signature_under_expedited_service_standards: holds
     us-ca:regulations/mpp/63-301/532#mailing_time_excluded_from_expedited_service_standards: holds
 - name: household_cannot_be_reached_and_no_mailing_time_day
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/532#input.household_mails_application: true
     us-ca:regulations/mpp/63-301/532#input.application_contains_sufficient_information_to_indicate_household_entitled_to_expedited_service_and_out_of_office_certification: true
@@ -37,7 +37,7 @@
     us-ca:regulations/mpp/63-301/532#mailing_time_for_signature_under_expedited_service_standards: not_holds
     us-ca:regulations/mpp/63-301/532#mailing_time_excluded_from_expedited_service_standards: not_holds
 - name: mailed_application_lacks_sufficient_expedited_out_of_office_information
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/532#input.household_mails_application: true
     us-ca:regulations/mpp/63-301/532#input.application_contains_sufficient_information_to_indicate_household_entitled_to_expedited_service_and_out_of_office_certification: false
@@ -56,7 +56,7 @@
     us-ca:regulations/mpp/63-301/532#mailing_time_for_signature_under_expedited_service_standards: holds
     us-ca:regulations/mpp/63-301/532#mailing_time_excluded_from_expedited_service_standards: not_holds
 - name: telephone_interview_not_conducted_so_signature_mailing_time_not_excluded
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/532#input.household_mails_application: true
     us-ca:regulations/mpp/63-301/532#input.application_contains_sufficient_information_to_indicate_household_entitled_to_expedited_service_and_out_of_office_certification: true

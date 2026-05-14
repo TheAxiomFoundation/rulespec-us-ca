@@ -1,5 +1,5 @@
 - name: receipt_required_when_all_delivery_conditions_are_met
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/6#input.person_requests_written_receipt_for_delivered_documents: true
     us-ca:regulations/mpp/63-300/6#input.person_is_applicant_or_recipient: true
@@ -10,7 +10,7 @@
   output:
     us-ca:regulations/mpp/63-300/6#written_receipt_required_for_hand_delivered_requested_documents: holds
 - name: receipt_not_required_without_request
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/6#input.person_requests_written_receipt_for_delivered_documents: false
     us-ca:regulations/mpp/63-300/6#input.person_is_applicant_or_recipient: true
@@ -21,7 +21,7 @@
   output:
     us-ca:regulations/mpp/63-300/6#written_receipt_required_for_hand_delivered_requested_documents: not_holds
 - name: receipt_not_required_when_delivered_to_regular_caseworker
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/6#input.person_requests_written_receipt_for_delivered_documents: true
     us-ca:regulations/mpp/63-300/6#input.person_is_applicant_or_recipient: true

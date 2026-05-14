@@ -1,5 +1,5 @@
 - name: recertified_household_determined_eligible
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-301/523#input.household_being_recertified
     : true
@@ -10,7 +10,7 @@
   output:
     us-ca:regulations/mpp/63-301/523#recertification_reapplication_expedited_service_entitlement: holds
 - name: reapplying_after_short_break_determined_eligible
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-301/523#input.household_being_recertified
     : false
@@ -21,7 +21,7 @@
   output:
     us-ca:regulations/mpp/63-301/523#recertification_reapplication_expedited_service_entitlement: holds
 - name: recertified_household_not_determined_eligible
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-301/523#input.household_being_recertified
     : true
@@ -32,7 +32,7 @@
   output:
     us-ca:regulations/mpp/63-301/523#recertification_reapplication_expedited_service_entitlement: not_holds
 - name: neither_recertified_nor_reapplying_after_short_break
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-301/523#input.household_being_recertified
     : false

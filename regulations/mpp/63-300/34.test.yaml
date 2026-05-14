@@ -1,5 +1,5 @@
 - name: contacted_wrong_office_application_filed_on_appropriate_office_receipt_date
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/34#input.household_contacts_wrong_certification_office_within_county_in_person_or_by_telephone: true
     us-ca:regulations/mpp/63-300/34#input.household_has_completed_enough_information_on_application_to_file: true
@@ -8,7 +8,7 @@
   output:
     us-ca:regulations/mpp/63-300/34#application_filing_date_is_appropriate_office_receipt_date: holds
 - name: contacted_wrong_office_application_not_filed_before_appropriate_office_receipt_date
-  period: 2026-05-12
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/34#input.household_contacts_wrong_certification_office_within_county_in_person_or_by_telephone: true
     us-ca:regulations/mpp/63-300/34#input.household_has_completed_enough_information_on_application_to_file: true
@@ -17,7 +17,7 @@
   output:
     us-ca:regulations/mpp/63-300/34#application_filing_date_is_appropriate_office_receipt_date: not_holds
 - name: mailed_to_wrong_office_application_filed_on_appropriate_office_receipt_date
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/34#input.household_contacts_wrong_certification_office_within_county_in_person_or_by_telephone: false
     us-ca:regulations/mpp/63-300/34#input.household_has_completed_enough_information_on_application_to_file: false
@@ -26,7 +26,7 @@
   output:
     us-ca:regulations/mpp/63-300/34#application_filing_date_is_appropriate_office_receipt_date: holds
 - name: contacted_wrong_office_without_enough_application_information_not_filed
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/34#input.household_contacts_wrong_certification_office_within_county_in_person_or_by_telephone: true
     us-ca:regulations/mpp/63-300/34#input.household_has_completed_enough_information_on_application_to_file: false

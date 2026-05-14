@@ -1,5 +1,5 @@
 - name: mr household applies different test at next recertification
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-503/328#input.household_is_mr_household: true
     us-ca:regulations/mpp/63-503/328#input.household_is_change_reporting_household: false
@@ -14,7 +14,7 @@
     us-ca:regulations/mpp/63-503/328#different_income_eligibility_test_application_required_at_first_event: holds
     us-ca:regulations/mpp/63-503/328#cwd_different_income_eligibility_test_application_requirement_satisfied: holds
 - name: qr pb household applies different test at first cwd change
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-503/328#input.household_is_mr_household: false
     us-ca:regulations/mpp/63-503/328#input.household_is_change_reporting_household: false
@@ -29,7 +29,7 @@
     us-ca:regulations/mpp/63-503/328#different_income_eligibility_test_application_required_at_first_event: holds
     us-ca:regulations/mpp/63-503/328#cwd_different_income_eligibility_test_application_requirement_satisfied: holds
 - name: requirement breached when first event occurs and cwd does not apply test
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-503/328#input.household_is_mr_household: false
     us-ca:regulations/mpp/63-503/328#input.household_is_change_reporting_household: true
@@ -44,7 +44,7 @@
     us-ca:regulations/mpp/63-503/328#different_income_eligibility_test_application_required_at_first_event: holds
     us-ca:regulations/mpp/63-503/328#cwd_different_income_eligibility_test_application_requirement_satisfied: not_holds
 - name: no first event yet makes application requirement inapplicable
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-503/328#input.household_is_mr_household: true
     us-ca:regulations/mpp/63-503/328#input.household_is_change_reporting_household: false

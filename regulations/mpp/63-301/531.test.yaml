@@ -1,5 +1,5 @@
 - name: initial_expedited_service_available_by_third_calendar_day
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/531#input.household_entitled_to_expedited_service_at_initial_application: true
     us-ca:regulations/mpp/63-301/531#input.authorization_document_access_device_or_coupons_available_by_mail_or_pickup_at_household_request: true
@@ -16,7 +16,7 @@
     us-ca:regulations/mpp/63-301/531#initial_expedited_service_delivery_standard_satisfied: holds
     us-ca:regulations/mpp/63-301/531#recertification_expedited_service_delivery_standard_satisfied: holds
 - name: initial_expedited_service_nonworking_third_day_coupons_available_before
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/531#input.household_entitled_to_expedited_service_at_initial_application: true
     us-ca:regulations/mpp/63-301/531#input.authorization_document_access_device_or_coupons_available_by_mail_or_pickup_at_household_request: true
@@ -31,7 +31,7 @@
     us-ca:regulations/mpp/63-301/531#initial_expedited_service_delivery_standard_satisfied: holds
     us-ca:regulations/mpp/63-301/531#recertification_expedited_service_delivery_standard_satisfied: holds
 - name: initial_expedited_service_late_without_nonworking_coupon_exception
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/531#input.household_entitled_to_expedited_service_at_initial_application: true
     us-ca:regulations/mpp/63-301/531#input.authorization_document_access_device_or_coupons_available_by_mail_or_pickup_at_household_request: true
@@ -46,7 +46,7 @@
     us-ca:regulations/mpp/63-301/531#initial_expedited_service_delivery_standard_satisfied: not_holds
     us-ca:regulations/mpp/63-301/531#recertification_expedited_service_delivery_standard_satisfied: holds
 - name: recertification_expedited_service_available_by_later_deadline
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/531#input.household_entitled_to_expedited_service_at_initial_application: false
     us-ca:regulations/mpp/63-301/531#input.authorization_document_access_device_or_coupons_available_by_mail_or_pickup_at_household_request: true

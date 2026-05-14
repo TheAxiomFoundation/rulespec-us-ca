@@ -1,5 +1,5 @@
 - name: verification_timing_requirements_hold_at_source_limits
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/5#input.required_application_verification_requested: true
     us-ca:regulations/mpp/63-300/5#input.days_allowed_to_provide_required_application_verification: 10
@@ -41,7 +41,7 @@
     us-ca:regulations/mpp/63-300/5#noncitizen_documentation_opportunity_timely_and_reasonable: holds
     us-ca:regulations/mpp/63-300/5#pending_federal_noncitizen_verification_certification_within_limit: holds
 - name: verification_timing_requirements_do_not_hold_outside_limits
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/5#input.required_application_verification_requested: true
     us-ca:regulations/mpp/63-300/5#input.days_allowed_to_provide_required_application_verification: 9

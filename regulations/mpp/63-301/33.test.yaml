@@ -1,5 +1,5 @@
 - name: normal_completed_application_certification_required
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/33#input.household_completed_application: true
     us-ca:regulations/mpp/63-301/33#input.household_was_interviewed: true
@@ -35,7 +35,7 @@
     us-ca:regulations/mpp/63-301/33#verification_failure_denial_notice_required: not_holds
     us-ca:regulations/mpp/63-301/33#verification_failure_case_reopened_without_new_application: not_holds
 - name: missed_first_interview_without_rescheduling
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/33#input.household_completed_application: false
     us-ca:regulations/mpp/63-301/33#input.household_was_interviewed: false
@@ -64,7 +64,7 @@
     us-ca:regulations/mpp/63-301/33#verification_failure_denial_notice_required: not_holds
     us-ca:regulations/mpp/63-301/33#verification_failure_case_reopened_without_new_application: not_holds
 - name: second_interview_scheduled_and_verification_provided
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/33#input.household_completed_application: false
     us-ca:regulations/mpp/63-301/33#input.household_was_interviewed: false
@@ -93,7 +93,7 @@
     us-ca:regulations/mpp/63-301/33#verification_failure_denial_notice_required: not_holds
     us-ca:regulations/mpp/63-301/33#verification_failure_case_reopened_without_new_application: not_holds
 - name: missed_second_interview_and_verification_failure_reopened
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/33#input.household_completed_application: false
     us-ca:regulations/mpp/63-301/33#input.household_was_interviewed: false

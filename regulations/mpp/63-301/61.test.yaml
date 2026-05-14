@@ -1,5 +1,5 @@
 - name: initial_joint_application_requires_single_interview_and_pa_face_to_face_responsibility_continues
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/61#input.household_at_initial_application_for_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/61#input.exception_to_single_interview_requirement_under_mpp_63_301_611_applies: false
@@ -11,7 +11,7 @@
     us-ca:regulations/mpp/63-301/61#dual_interview_requirement_prohibited_for_public_assistance_household: holds
     us-ca:regulations/mpp/63-301/61#public_assistance_face_to_face_interview_responsibility_continues_despite_food_stamp_out_of_office_eligibility: holds
 - name: section_63_301_611_exception_displaces_single_and_dual_interview_rules
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/61#input.household_at_initial_application_for_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/61#input.exception_to_single_interview_requirement_under_mpp_63_301_611_applies: true
@@ -23,7 +23,7 @@
     us-ca:regulations/mpp/63-301/61#dual_interview_requirement_prohibited_for_public_assistance_household: not_holds
     us-ca:regulations/mpp/63-301/61#public_assistance_face_to_face_interview_responsibility_continues_despite_food_stamp_out_of_office_eligibility: holds
 - name: out_of_office_eligibility_does_not_continue_absent_pa_face_to_face_responsibility
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/61#input.household_at_initial_application_for_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/61#input.exception_to_single_interview_requirement_under_mpp_63_301_611_applies: false
@@ -35,7 +35,7 @@
     us-ca:regulations/mpp/63-301/61#dual_interview_requirement_prohibited_for_public_assistance_household: holds
     us-ca:regulations/mpp/63-301/61#public_assistance_face_to_face_interview_responsibility_continues_despite_food_stamp_out_of_office_eligibility: not_holds
 - name: no_food_stamp_out_of_office_eligibility_leaves_despite_rule_inapplicable
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/61#input.household_at_initial_application_for_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/61#input.exception_to_single_interview_requirement_under_mpp_63_301_611_applies: false

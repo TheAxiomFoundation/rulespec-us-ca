@@ -1,5 +1,5 @@
 - name: food_stamp_only_factor_and_delay_bar
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/62#input.household_applies_for_both_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/62#input.eligibility_factor_needed_solely_for_food_stamp_eligibility: true
@@ -13,7 +13,7 @@
     us-ca:regulations/mpp/63-301/62#shared_factor_pa_verification_rules_may_be_used: not_holds
     us-ca:regulations/mpp/63-301/62#food_stamp_benefit_delay_bar_applies: holds
 - name: shared_factor_pa_verification_permission
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/62#input.household_applies_for_both_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/62#input.eligibility_factor_needed_solely_for_food_stamp_eligibility: false
@@ -26,7 +26,7 @@
     us-ca:regulations/mpp/63-301/62#shared_factor_pa_verification_rules_may_be_used: holds
     us-ca:regulations/mpp/63-301/62#food_stamp_benefit_delay_bar_applies: not_holds
 - name: household_not_applying_for_both_programs
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/62#input.household_applies_for_both_public_assistance_and_food_stamps: false
     us-ca:regulations/mpp/63-301/62#input.eligibility_factor_needed_solely_for_food_stamp_eligibility: true
@@ -39,7 +39,7 @@
     us-ca:regulations/mpp/63-301/62#shared_factor_pa_verification_rules_may_be_used: not_holds
     us-ca:regulations/mpp/63-301/62#food_stamp_benefit_delay_bar_applies: not_holds
 - name: pa_verification_sufficient_no_delay_bar
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/62#input.household_applies_for_both_public_assistance_and_food_stamps: true
     us-ca:regulations/mpp/63-301/62#input.eligibility_factor_needed_solely_for_food_stamp_eligibility: true

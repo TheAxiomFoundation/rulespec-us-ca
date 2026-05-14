@@ -1,5 +1,5 @@
 - name: cwd_process_requirements_satisfied_without_household_fault
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/411#input.household_failed_to_complete_application_form: true
     us-ca:regulations/mpp/63-301/411#input.cwd_offered_or_attempted_application_completion_assistance: true
@@ -33,7 +33,7 @@
     us-ca:regulations/mpp/63-301/411#post_deadline_household_requested_interview_delay_fault: not_holds
     us-ca:regulations/mpp/63-301/411#missed_two_interviews_additional_request_household_delay_fault: not_holds
 - name: application_and_verification_requirements_not_satisfied
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/411#input.household_failed_to_complete_application_form: true
     us-ca:regulations/mpp/63-301/411#input.cwd_offered_or_attempted_application_completion_assistance: false
@@ -61,7 +61,7 @@
     us-ca:regulations/mpp/63-301/411#post_deadline_household_requested_interview_delay_fault: not_holds
     us-ca:regulations/mpp/63-301/411#missed_two_interviews_additional_request_household_delay_fault: not_holds
 - name: late_pre_deadline_interview_delay_fault_when_required_actions_not_completed
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/411#input.household_failed_to_complete_application_form: false
     us-ca:regulations/mpp/63-301/411#input.cwd_offered_or_attempted_application_completion_assistance: false
@@ -89,7 +89,7 @@
     us-ca:regulations/mpp/63-301/411#post_deadline_household_requested_interview_delay_fault: not_holds
     us-ca:regulations/mpp/63-301/411#missed_two_interviews_additional_request_household_delay_fault: not_holds
 - name: post_deadline_request_and_two_missed_interviews_delay_fault
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/411#input.household_failed_to_complete_application_form: false
     us-ca:regulations/mpp/63-301/411#input.cwd_offered_or_attempted_application_completion_assistance: false

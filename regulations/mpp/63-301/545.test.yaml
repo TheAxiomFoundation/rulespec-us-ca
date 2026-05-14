@@ -1,5 +1,5 @@
 - name: nonhomeless_residency_verification_missing_after_deadline_terminates_household
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: false
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: false
@@ -23,7 +23,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: not_holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: not_holds
 - name: homeless_residency_verification_missing_after_deadline_does_not_terminate_household
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: false
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: false
@@ -44,7 +44,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: not_holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: not_holds
 - name: nonmigrant_out_of_state_income_verification_missing_after_deadline_terminates_household
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: false
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: true
@@ -65,7 +65,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: not_holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: not_holds
 - name: migrant_out_of_state_income_verification_missing_within_sixty_days_extends_household
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: true
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: true
@@ -86,7 +86,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: not_holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: not_holds
 - name: migrant_out_of_state_income_verification_missing_after_sixty_days_terminates_household
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: true
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: true
@@ -107,7 +107,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: not_holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: not_holds
 - name: unverified_child_support_excludes_deduction_and_verification_change_allows_no_advance_notice
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.household_is_migrant: false
     us-ca:regulations/mpp/63-301/545#input.only_missing_household_verification_is_from_out_of_state_source: false
@@ -128,7 +128,7 @@
     us-ca:regulations/mpp/63-301/545#child_support_deduction_excluded_for_unverified_child_support: holds
     us-ca:regulations/mpp/63-301/545#cwd_may_act_without_advance_notice_on_verification_change: holds
 - name: nonmigrant_member_missing_alien_or_student_status_proof_after_deadline_terminates
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.member_is_in_migrant_household: false
     us-ca:regulations/mpp/63-301/545#input.member_missing_verification_is_from_out_of_state_source: true
@@ -141,7 +141,7 @@
     us-ca:regulations/mpp/63-301/545#household_member_participation_terminated_for_missing_status_or_ssn_proof: holds
     us-ca:regulations/mpp/63-301/545#migrant_household_member_participation_terminated_for_out_of_state_verification_after_deadline: not_holds
 - name: nonmigrant_member_missing_ssn_or_application_proof_after_deadline_terminates
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.member_is_in_migrant_household: false
     us-ca:regulations/mpp/63-301/545#input.member_missing_verification_is_from_out_of_state_source: true
@@ -154,7 +154,7 @@
     us-ca:regulations/mpp/63-301/545#household_member_participation_terminated_for_missing_status_or_ssn_proof: holds
     us-ca:regulations/mpp/63-301/545#migrant_household_member_participation_terminated_for_out_of_state_verification_after_deadline: not_holds
 - name: migrant_member_out_of_state_ssn_verification_missing_within_sixty_days_extends
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.member_is_in_migrant_household: true
     us-ca:regulations/mpp/63-301/545#input.member_missing_verification_is_from_out_of_state_source: true
@@ -167,7 +167,7 @@
     us-ca:regulations/mpp/63-301/545#household_member_participation_terminated_for_missing_status_or_ssn_proof: not_holds
     us-ca:regulations/mpp/63-301/545#migrant_household_member_participation_terminated_for_out_of_state_verification_after_deadline: not_holds
 - name: migrant_member_out_of_state_ssn_verification_missing_after_sixty_days_terminates
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/545#input.member_is_in_migrant_household: true
     us-ca:regulations/mpp/63-301/545#input.member_missing_verification_is_from_out_of_state_source: true

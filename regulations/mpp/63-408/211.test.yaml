@@ -1,5 +1,5 @@
 - name: earned_income_source_lost_and_cwd_determines_cause
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/211#input.cwd_learns_household_lost_source_of_earned_income_after_application_before_certification
     : true
@@ -10,7 +10,7 @@
   output:
     us-ca:regulations/mpp/63-408/211#cwd_income_change_determination_requirement_satisfied: holds
 - name: income_reduction_and_cwd_determines_cause
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/211#input.cwd_learns_household_lost_source_of_earned_income_after_application_before_certification
     : false
@@ -21,7 +21,7 @@
   output:
     us-ca:regulations/mpp/63-408/211#cwd_income_change_determination_requirement_satisfied: holds
 - name: income_change_learned_but_no_required_determination
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/211#input.cwd_learns_household_lost_source_of_earned_income_after_application_before_certification
     : true
@@ -32,7 +32,7 @@
   output:
     us-ca:regulations/mpp/63-408/211#cwd_income_change_determination_requirement_satisfied: not_holds
 - name: no_post_application_income_change_learned
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/211#input.cwd_learns_household_lost_source_of_earned_income_after_application_before_certification
     : false

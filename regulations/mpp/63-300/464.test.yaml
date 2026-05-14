@@ -1,5 +1,5 @@
 - name: recertification_interview_requirements_and_options_apply
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/464#input.recertification_process: true
     us-ca:regulations/mpp/63-300/464#input.household_certification_period_months: 12
@@ -21,7 +21,7 @@
     us-ca:regulations/mpp/63-300/464#pa_ga_other_recertification_methods_available: holds
     us-ca:regulations/mpp/63-300/464#recertification_interview_schedule_allows_verification_period: holds
 - name: section_63_300_43_waiver_displaces_face_to_face_requirement
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/464#input.recertification_process: true
     us-ca:regulations/mpp/63-300/464#input.household_certification_period_months: 12
@@ -40,7 +40,7 @@
     us-ca:regulations/mpp/63-300/464#pa_ga_other_recertification_methods_available: holds
     us-ca:regulations/mpp/63-300/464#recertification_interview_schedule_allows_verification_period: holds
 - name: section_63_300_44_waiver_displaces_face_to_face_requirement
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/464#input.recertification_process: true
     us-ca:regulations/mpp/63-300/464#input.household_certification_period_months: 12
@@ -59,7 +59,7 @@
     us-ca:regulations/mpp/63-300/464#pa_ga_other_recertification_methods_available: holds
     us-ca:regulations/mpp/63-300/464#recertification_interview_schedule_allows_verification_period: holds
 - name: section_63_300_41_qr_not_required_displaces_face_to_face_requirement
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/464#input.recertification_process: true
     us-ca:regulations/mpp/63-300/464#input.household_certification_period_months: 12
@@ -78,7 +78,7 @@
     us-ca:regulations/mpp/63-300/464#pa_ga_other_recertification_methods_available: holds
     us-ca:regulations/mpp/63-300/464#recertification_interview_schedule_allows_verification_period: holds
 - name: other_recertification_and_verification_window_conditions_not_met
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/464#input.recertification_process: true
     us-ca:regulations/mpp/63-300/464#input.household_certification_period_months: 12

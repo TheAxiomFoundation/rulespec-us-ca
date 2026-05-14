@@ -1,5 +1,5 @@
 - name: ssn_requirement_not_triggered
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-404/31#input.individual_indicates_no_ssn: false
     us-ca:regulations/mpp/63-404/31#input.individual_unable_to_provide_ssn: false
@@ -8,7 +8,7 @@
   output:
     us-ca:regulations/mpp/63-404/31#household_member_satisfies_ssn_application_requirement: holds
 - name: no_ssn_and_both_required_actions_completed
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-404/31#input.individual_indicates_no_ssn: true
     us-ca:regulations/mpp/63-404/31#input.individual_unable_to_provide_ssn: false
@@ -17,7 +17,7 @@
   output:
     us-ca:regulations/mpp/63-404/31#household_member_satisfies_ssn_application_requirement: holds
 - name: unable_to_provide_ssn_but_does_not_apply_to_ssa
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-404/31#input.individual_indicates_no_ssn: false
     us-ca:regulations/mpp/63-404/31#input.individual_unable_to_provide_ssn: true
@@ -26,7 +26,7 @@
   output:
     us-ca:regulations/mpp/63-404/31#household_member_satisfies_ssn_application_requirement: not_holds
 - name: no_ssn_but_does_not_complete_cwd_application
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-404/31#input.individual_indicates_no_ssn: true
     us-ca:regulations/mpp/63-404/31#input.individual_unable_to_provide_ssn: false

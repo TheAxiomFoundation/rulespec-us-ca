@@ -1,5 +1,5 @@
 - name: eligible_household_benefits_start_from_application_date_after_kept_rescheduled_interview
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-300/463#input.household_applied_for_initial_benefits: true
     us-ca:regulations/mpp/63-300/463#input.household_missed_first_scheduled_interview: true
@@ -17,7 +17,7 @@
     us-ca:regulations/mpp/63-300/463#ineligible_case_denied_on_30th_day_after_rescheduled_interview_kept: not_holds
     us-ca:regulations/mpp/63-300/463#case_denied_on_30th_day_after_second_missed_interview: not_holds
 - name: ineligible_household_denied_on_30th_day_after_kept_rescheduled_interview
-  period: 2026-06-12
+  period: 2026-06
   input:
     us-ca:regulations/mpp/63-300/463#input.household_applied_for_initial_benefits: true
     us-ca:regulations/mpp/63-300/463#input.household_missed_first_scheduled_interview: true
@@ -35,7 +35,7 @@
     us-ca:regulations/mpp/63-300/463#ineligible_case_denied_on_30th_day_after_rescheduled_interview_kept: holds
     us-ca:regulations/mpp/63-300/463#case_denied_on_30th_day_after_second_missed_interview: not_holds
 - name: household_denied_on_30th_day_after_second_missed_interview
-  period: 2026-06-12
+  period: 2026-06
   input:
     us-ca:regulations/mpp/63-300/463#input.household_applied_for_initial_benefits: true
     us-ca:regulations/mpp/63-300/463#input.household_missed_first_scheduled_interview: true
@@ -53,7 +53,7 @@
     us-ca:regulations/mpp/63-300/463#ineligible_case_denied_on_30th_day_after_rescheduled_interview_kept: not_holds
     us-ca:regulations/mpp/63-300/463#case_denied_on_30th_day_after_second_missed_interview: holds
 - name: second_missed_interview_not_denied_before_30th_day
-  period: 2026-06-11
+  period: 2026-06
   input:
     us-ca:regulations/mpp/63-300/463#input.household_applied_for_initial_benefits: true
     us-ca:regulations/mpp/63-300/463#input.household_missed_first_scheduled_interview: true

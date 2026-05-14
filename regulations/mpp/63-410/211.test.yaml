@@ -1,5 +1,5 @@
 - name: employment_hours_drop_reported_within_deadline
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-410/211#input.qr_pb_effective_in_county_under_directors_declaration: true
     us-ca:regulations/mpp/63-410/211#input.food_stamp_recipient_satisfying_abawd_work_requirement_through_employment: true
@@ -22,7 +22,7 @@
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_reporting_requirement_satisfied: holds
     us-ca:regulations/mpp/63-410/211#in_kind_income_hours_count_toward_abawd_weekly_minimum: holds
 - name: section_exemption_removes_mid_quarter_report_requirement
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-410/211#input.qr_pb_effective_in_county_under_directors_declaration: true
     us-ca:regulations/mpp/63-410/211#input.food_stamp_recipient_satisfying_abawd_work_requirement_through_employment: true
@@ -41,7 +41,7 @@
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_report_required: not_holds
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_reporting_requirement_satisfied: holds
 - name: county_abawd_waiver_removes_mid_quarter_report_requirement
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-410/211#input.qr_pb_effective_in_county_under_directors_declaration: true
     us-ca:regulations/mpp/63-410/211#input.food_stamp_recipient_satisfying_abawd_work_requirement_through_employment: true
@@ -60,7 +60,7 @@
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_report_required: not_holds
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_reporting_requirement_satisfied: holds
 - name: combination_education_training_employment_reduction_exception
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-410/211#input.qr_pb_effective_in_county_under_directors_declaration: true
     us-ca:regulations/mpp/63-410/211#input.food_stamp_recipient_satisfying_abawd_work_requirement_through_employment: true
@@ -79,7 +79,7 @@
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_report_required: not_holds
     us-ca:regulations/mpp/63-410/211#abawd_employment_hours_drop_mid_quarter_reporting_requirement_satisfied: holds
 - name: required_report_after_deadline_and_in_kind_documentation_missing
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-410/211#input.qr_pb_effective_in_county_under_directors_declaration: true
     us-ca:regulations/mpp/63-410/211#input.food_stamp_recipient_satisfying_abawd_work_requirement_through_employment: true

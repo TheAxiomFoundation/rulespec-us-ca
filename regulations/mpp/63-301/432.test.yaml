@@ -1,5 +1,5 @@
 - name: eligible_household_during_second_processing_period_gets_retroactive_benefits
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/432#input.household_determined_eligible: true
     us-ca:regulations/mpp/63-301/432#input.household_determined_ineligible: false
@@ -9,7 +9,7 @@
     us-ca:regulations/mpp/63-301/432#application_denial_required_for_second_processing_period_ineligibility: not_holds
     us-ca:regulations/mpp/63-301/432#denial_notice_required_for_second_processing_period_ineligibility: not_holds
 - name: ineligible_household_during_second_processing_period_is_denied_with_notice
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/432#input.household_determined_eligible: false
     us-ca:regulations/mpp/63-301/432#input.household_determined_ineligible: true
@@ -19,7 +19,7 @@
     us-ca:regulations/mpp/63-301/432#application_denial_required_for_second_processing_period_ineligibility: holds
     us-ca:regulations/mpp/63-301/432#denial_notice_required_for_second_processing_period_ineligibility: holds
 - name: determination_outside_second_processing_period_does_not_trigger_this_slice
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/432#input.household_determined_eligible: true
     us-ca:regulations/mpp/63-301/432#input.household_determined_ineligible: false

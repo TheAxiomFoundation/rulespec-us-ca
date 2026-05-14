@@ -1,12 +1,12 @@
 - name: reevaluation_required_at_household_request
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/632#input.household_requests_reevaluation_of_original_application: true
     us-ca:regulations/mpp/63-301/632#input.cwd_otherwise_aware_of_household_pa_eligibility: false
   output:
     us-ca:regulations/mpp/63-301/632#original_application_reevaluation_required: holds
 - name: reevaluation_not_required_without_request_or_awareness
-  period: 2026-05-13
+  period: 2026-05
   input:
     us-ca:regulations/mpp/63-301/632#input.household_requests_reevaluation_of_original_application: false
     us-ca:regulations/mpp/63-301/632#input.cwd_otherwise_aware_of_household_pa_eligibility: false

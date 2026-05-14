@@ -1,5 +1,5 @@
 - name: reduced_hours_same_employer_not_voluntary_quit
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/111#input.employment_status_change_results_from_reducing_hours_while_working_for_same_employer
     : true
@@ -10,7 +10,7 @@
   output:
     us-ca:regulations/mpp/63-408/111#employment_status_change_not_considered_voluntary_quit: holds
 - name: terminated_self_employment_enterprise_not_voluntary_quit
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/111#input.employment_status_change_results_from_reducing_hours_while_working_for_same_employer
     : false
@@ -21,7 +21,7 @@
   output:
     us-ca:regulations/mpp/63-408/111#employment_status_change_not_considered_voluntary_quit: holds
 - name: resigned_at_employer_demand_not_voluntary_quit
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/111#input.employment_status_change_results_from_reducing_hours_while_working_for_same_employer
     : false
@@ -32,7 +32,7 @@
   output:
     us-ca:regulations/mpp/63-408/111#employment_status_change_not_considered_voluntary_quit: holds
 - name: no_listed_employment_status_change
-  period: 2026-05-13
+  period: 2026-05
   input:
     ? us-ca:regulations/mpp/63-408/111#input.employment_status_change_results_from_reducing_hours_while_working_for_same_employer
     : false
