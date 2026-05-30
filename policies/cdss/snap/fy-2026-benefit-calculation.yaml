@@ -1,6 +1,8 @@
 format: rulespec/v1
 module:
   kind: composition
+  source_verification:
+    corpus_citation_path: us/guidance/usda/fns/snap-fy2026-cola/page-1
   summary: |-
     California CalFresh FY 2026 benefit calculation composition. This module
     imports federal USDA FY 2026 SNAP allotment, deduction, resource-limit,
@@ -25,6 +27,7 @@ imports:
   - us:statutes/7/2014/e/2
   - us:statutes/7/2014/e/6/A
   - us:statutes/7/2017/a
+  - us-ca:policies/cdss/snap/standard-utility-allowance
   - us-ca:regulations/mpp/63-503/324
 rules:
   - name: snap_countable_earned_income
@@ -87,7 +90,7 @@ rules:
     entity: Person
     dtype: Judgment
     period: Month
-    source: California CalFresh FY 2026 benefit calculation composition
+    source: California CalFresh SNAP eligibility member composition bridge
     versions:
       - effective_from: '2025-10-01'
         formula: |-
@@ -95,33 +98,32 @@ rules:
           and snap_member_ssn_requirement_eligible
           and snap_member_work_requirement_eligible
           and snap_member_student_eligible
-
   - name: snap_residency_eligible
     kind: derived
     entity: Household
     dtype: Judgment
     period: Month
-    source: California CalFresh FY 2026 benefit calculation composition
+    source: California CalFresh SNAP eligibility composition bridge
     versions:
       - effective_from: '2025-10-01'
-        formula: snap_household_residency_eligible
-
+        formula: |-
+          snap_household_residency_eligible
   - name: snap_household_member_eligible
     kind: derived
     entity: Household
     dtype: Judgment
     period: Month
-    source: California CalFresh FY 2026 benefit calculation composition
+    source: California CalFresh SNAP eligibility composition bridge
     versions:
       - effective_from: '2025-10-01'
-        formula: count_where(member_of_household, snap_member_eligible) > 0
-
+        formula: |-
+          count_where(member_of_household, snap_member_eligible) > 0
   - name: snap_eligible
     kind: derived
     entity: Household
     dtype: Judgment
     period: Month
-    source: California CalFresh FY 2026 benefit calculation composition
+    source: California CalFresh SNAP eligibility composition bridge
     versions:
       - effective_from: '2025-10-01'
         formula: |-
@@ -129,7 +131,6 @@ rules:
           and snap_household_member_eligible
           and snap_resource_eligible
           and snap_standard_income_eligible
-
   - name: snap_benefit
     kind: derived
     entity: Household
@@ -144,3 +145,34 @@ rules:
               snap_monthly_allotment
           else:
               0
+  - name: member_of_household
+    kind: data_relation
+    data_relation:
+      predicate: member_of_household
+      arity: 2
+      arguments:
+        - Person
+        - Household
+
+  - name: shelter_costs
+    kind: derived
+    entity: Household
+    dtype: Money
+    period: Month
+    unit: USD
+    source: California CalFresh shelter utility allowance composition bridge
+    versions:
+      - effective_from: '2025-10-01'
+        formula: |-
+          household_shelter_costs_incurred + snap_standard_utility_allowance
+  - name: snap_total_allowable_shelter_expenses
+    kind: derived
+    entity: Household
+    dtype: Money
+    period: Month
+    unit: USD
+    source: California CalFresh shelter utility allowance composition bridge
+    versions:
+      - effective_from: '2025-10-01'
+        formula: |-
+          shelter_costs
