@@ -1,5 +1,9 @@
 # rulespec-us-ca
 
+This repository is archived. Its canonical content now lives in
+[`TheAxiomFoundation/rulespec-us`](https://github.com/TheAxiomFoundation/rulespec-us)
+under `us-ca/`; keep all future RuleSpec work there.
+
 California RuleSpec encodings and source registry metadata.
 
 ## Contents
@@ -15,4 +19,4 @@ California RuleSpec encodings and source registry metadata.
 Use RuleSpec YAML for encoded rules. Do not add singular rule roots, separate
 parameter/test fixture files, or generated formula artifacts.
 
-Federal materials belong in `rulespec-us`. California-administered materials belong here.
+In the canonical monorepo, California-administered materials live under `us-ca/`; shared federal materials live at the country root.
